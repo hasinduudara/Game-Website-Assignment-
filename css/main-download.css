@@ -18,6 +18,11 @@ nav a {
   margin: 0 15px;
   font-size: 16px;
 }
+
+nav a:hover {
+  color: #ffea00;
+}
+
 .search-bar {
   display: flex;
   justify-content: center;
@@ -75,4 +80,10 @@ nav a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.download-section button:hover {
+  background: #0051ff;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
 }

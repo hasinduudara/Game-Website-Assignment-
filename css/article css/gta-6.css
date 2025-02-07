@@ -6,11 +6,13 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
 h1,
 h2,
 h3 {
   color: #222;
 }
+
 article {
   max-width: 800px;
   margin: 0 auto;
@@ -19,29 +21,36 @@ article {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 p {
   margin-bottom: 1.5em;
 }
+
 ul {
   margin-bottom: 1.5em;
 }
+
 li {
   margin-bottom: 0.5em;
 }
+
 .highlight {
   color: #e74c3c;
   font-weight: bold;
 }
+
 .content-wrapper {
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .image {
   text-align: center;
   margin: 20px 0;
 }
+
 .image img {
   max-width: 100%;
   height: auto;
@@ -49,28 +58,21 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
 .image img:hover {
   transform: scale(1.05);
 }
+
 .trailer {
   text-align: center;
   margin: 20px 0;
 }
+
 .trailer iframe {
   width: 100%;
   height: 450px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #303030;
-  color: #fff;
-  border-radius: 8px;
-  margin-top: 20px;
-  font-size: 1em;
 }
 
 .navbar {
@@ -100,4 +102,26 @@ footer {
 
 .nav-links a:hover {
   color: #ffff00;
+}
+
+footer {
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
 }

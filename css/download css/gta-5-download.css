@@ -166,11 +166,23 @@ button:hover {
 }
 
 footer {
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
   text-align: center;
-  padding: 10px;
-  background-color: #303030;
-  color: #fff;
-  border-radius: 8px;
-  margin-top: 20px;
-  font-size: 1em;
+  margin-top: 4rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
 }

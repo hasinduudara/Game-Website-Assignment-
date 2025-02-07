@@ -9,7 +9,6 @@ body {
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
-  padding: 20px;
 }
 
 .navbar {
@@ -138,4 +137,26 @@ body {
 
 .article-footer a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
 }

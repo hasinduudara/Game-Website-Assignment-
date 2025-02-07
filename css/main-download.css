@@ -108,3 +108,25 @@ body {
   transition: background 0.3s ease, transform 0.3s ease;
   transform: scale(1.05);
 }
+
+footer {
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
+}

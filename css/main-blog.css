@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #262626;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fbff00;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #ffff00;
+}
+
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.search-bar button {
+  background: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.search-bar button:hover {
+  background: #0051ff;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.article-meta {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.article-content {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.article-content h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.article-content p {
+  margin-bottom: 15px;
+}
+
+.article-content blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-left: 4px solid #007bff;
+  font-style: italic;
+  color: #555;
+}
+
+.article-footer {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.article-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article-footer a:hover {
+  text-decoration: underline;
+}

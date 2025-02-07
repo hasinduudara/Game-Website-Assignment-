@@ -4,23 +4,10 @@ body {
   padding: 0;
   background: #ddd;
 }
-header {
-  background: #333;
-  color: white;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 16px;
-}
 
-nav a:hover {
-  color: #ffea00;
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
 }
 
 .search-bar {
@@ -48,6 +35,36 @@ nav a:hover {
   transition: transform 0.3s ease;
   transform: scale(1.05);
 }
+
+.navbar {
+  background-color: #262626;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fbff00;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #ffff00;
+}
+
 .game-list {
   display: flex;
   justify-content: center;
@@ -88,6 +105,6 @@ nav a:hover {
 }
 .download-section button:hover {
   background: #0051ff;
-  transition: transform 0.3s ease;
+  transition: background 0.3s ease, transform 0.3s ease;
   transform: scale(1.05);
 }

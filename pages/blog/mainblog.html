@@ -15,58 +15,58 @@
     <meta name="author" content="Hasindu Udara" />
     <title>Gamelynx Blog</title>
     <link rel="icon" href="/assets/images/rubik.png" />
+    <link rel="stylesheet" href="/css/main-blog.css" />
   </head>
   <body>
     <main>
       <section id="hero">
         <header>
-          <nav>
-            <ul>
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/pages/blog/mainblog.html">Blog</a></li>
-              <li><a href="#">YouTube</a></li>
-              <li><a href="/pages/download/main-downlod.html">Download</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <nav class="navbar">
+            <div class="logo">Gamelynx</div>
+            <div class="nav-links">
+              <a href="/index.html">Home</a>
+              <a href="/pages/blog/mainblog.html">Blog</a>
+              <a href="#about">YouTube</a>
+              <a href="/pages/download/main-downlod.html">Download</a>
+              <a href="#contact">Contact</a>
+            </div>
           </nav>
-          <form action="/search" method="get">
-            <input
-              type="text"
-              name="query"
-              placeholder="Search articles..."
-              required
-            />
-            <button type="submit">🔍 Search</button>
-          </form>
+
+          <div class="search-bar">
+            <form action="/search" method="get">
+              <input
+                type="text"
+                name="query"
+                placeholder="Search articles..."
+                required
+              />
+              <button type="submit">🔍 Search</button>
+            </form>
+          </div>
         </header>
-        <div>
-          <h1>🎮 Welcome to the Blog! 🌟</h1>
-          <p>
-            Stay updated with the latest gaming news, reviews, and eSports
-            updates! 🚀 👾 Explore, connect, and conquer with our amazing gaming
-            community! 🕹️
-          </p>
-          <hr />
-        </div>
-      </section>
-      <section id="blog">
-        <article>
-          <header>
-            <h2>The Grand Theft Auto (GTA) 6</h2>
-            <p>📅 Published on January 1, 2025</p>
-          </header>
-          <p>
-            A supposed leak from a Uruguayan retailer claimed that Grand Theft
-            Auto 6 would be released on September 17, 2025, but this date has
-            been debunked by the retailer itself. The game is still expected to
-            be released in late 2025 for the PlayStation 5 and Xbox Series X/S.
-          </p>
-          <footer>
-            <a href="/pages/blog/articles/gta-6.html" target="_blank"
-              >Read more</a
-            >
-          </footer>
-        </article>
+
+        <section id="articles">
+          <div class="article">
+            <article class="article-container">
+              <h4 class="article-title">The Grand Theft Auto (GTA) 6</h4>
+              <p>📅 Published on January 1, 2025</p>
+              <div class="article-content">
+                <p>
+                  A supposed leak from a Uruguayan retailer claimed that Grand
+                  Theft Auto 6 would be released on September 17, 2025, but this
+                  date has been debunked by the retailer itself. The game is
+                  still expected to be released in late 2025 for the PlayStation
+                  5 and Xbox Series X/S.
+                </p>
+              </div>
+              <footer class="article-footer">
+                <a href="/pages/blog/articles/gta-6.html" target="_blank"
+                  >Read more</a
+                >
+              </footer>
+            </article>
+          </div>
+        </section>
       </section>
     </main>
   </body>

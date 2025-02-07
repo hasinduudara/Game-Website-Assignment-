@@ -17,21 +17,29 @@
     <main>
       <section id="hero">
         <header>
-          <h1>Gamelynx</h1>
-          <nav>
-            <a href="/index.html">Home</a>
-            <a href="/pages/blog/mainblog.html">Blog</a>
-            <a href="#">YouTube</a>
-            <a href="#">Download</a>
-            <a href="#">Contact</a>
+          <nav class="navbar">
+            <div class="logo">Gamelynx</div>
+            <div class="nav-links">
+              <a href="/index.html">Home</a>
+              <a href="/pages/blog/mainblog.html">Blog</a>
+              <a href="#about">YouTube</a>
+              <a href="/pages/download/main-downlod.html">Download</a>
+              <a href="#contact">Contact</a>
+            </div>
           </nav>
-        </header>
 
-        <div class="search-bar">
-          <input type="text" placeholder="Search Your Game" />
-          <button>Search</button>
-        </div>
-      </section>
+          <div class="search-bar">
+            <form action="/search" method="get">
+              <input
+                type="text"
+                name="query"
+                placeholder="Search Games"
+                required
+              />
+              <button type="submit">🔍 Search</button>
+            </form>
+          </div>
+        </header>
 
       <section id="game-card">
         <div class="game-list">

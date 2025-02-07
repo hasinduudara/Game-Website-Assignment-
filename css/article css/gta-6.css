@@ -73,29 +73,31 @@ footer {
   font-size: 1em;
 }
 
-nav {
-  background-color: #303030;
-  padding: 10px 0;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-nav ul {
-  list-style: none;
+.navbar {
+  background-color: #262626;
+  padding: 1rem 5%;
   display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
+  justify-content: space-between;
+  align-items: center;
 }
-nav ul li {
-  margin: 0 15px;
-}
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+
+.logo {
+  font-size: 2rem;
+  color: #fbff00;
   font-weight: bold;
-  transition: color 0.3s ease;
 }
-nav ul li a:hover {
-  color: #f6ff00;
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #ffff00;
 }

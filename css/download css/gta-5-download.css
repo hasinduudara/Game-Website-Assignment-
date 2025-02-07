@@ -11,6 +11,33 @@ body {
   line-height: 1.6;
 }
 
+nav {
+  background-color: #303030;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #f6ff00;
+}
+
 .container {
   max-width: 800px;
   margin: 40px auto;
@@ -74,7 +101,6 @@ li {
 }
 
 li::before {
-  content: "▹";
   color: #ff4400;
   position: absolute;
   left: 0;
@@ -108,4 +134,41 @@ th {
 td {
   background-color: #363636;
   color: white;
+}
+
+.download {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+button {
+  background-color: #ff4400;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #af0000;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #303030;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 1em;
 }

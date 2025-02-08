@@ -1,9 +1,13 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  color: #333;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
 }
 
 .container {
@@ -164,12 +168,23 @@ header h1 {
 }
 
 footer {
-  background: #333;
-  color: #fff;
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
   text-align: center;
-  padding: 20px 0;
+  margin-top: 4rem;
 }
 
-footer p {
-  margin: 0;
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
 }

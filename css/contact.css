@@ -2,29 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
 }
 
 body {
-  background-color: white;
-  color: black;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-header {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-}
-
-header h1 {
-  margin: 0;
-  text-align: center;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 .navbar {
@@ -56,35 +40,6 @@ header h1 {
   color: #ffff00;
 }
 
-.hero {
-  background: #f4b41a;
-  color: #fff;
-  padding: 100px 0;
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.hero .btn {
-  background: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero .btn:hover {
-  background: #555;
-}
-
 .about {
   padding: 50px 0;
   text-align: center;
@@ -96,30 +51,6 @@ header h1 {
 }
 
 .about p {
-  font-size: 1.1em;
-}
-
-.services {
-  background: #f4f4f4;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.service-item {
-  margin-bottom: 30px;
-}
-
-.service-item h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.service-item p {
   font-size: 1.1em;
 }
 

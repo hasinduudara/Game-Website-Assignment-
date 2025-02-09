@@ -125,3 +125,27 @@ footer {
 .social-links a:hover {
   color: #00aa00;
 }
+
+.download-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-button .button {
+  text-decoration: none;
+}
+
+.download-button button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button button:hover {
+  background-color: #8a0202;
+}

@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #262626;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fbff00;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #ffff00;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.requirements {
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.image {
+  text-align: center;
+  margin: 20px 0;
+}
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.image img:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #ff4400;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #00a8ff;
+  margin: 25px 0 15px;
+  border-bottom: 2px solid #3a3a3a;
+  padding-bottom: 8px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+li::before {
+  color: #ff4400;
+  position: absolute;
+  left: 0;
+}
+
+.note {
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #00a8ff;
+  color: white;
+}
+
+td {
+  background-color: #363636;
+  color: white;
+}
+
+.download {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+button {
+  background-color: #ff4400;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #af0000;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #232323;
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover {
+  color: #00aa00;
+}

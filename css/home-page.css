@@ -85,7 +85,6 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #006800;
   transform: scale(1.05);
 }
 

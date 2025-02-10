@@ -88,7 +88,7 @@ body {
   transform: scale(1.05);
 }
 
-.featured-games {
+.featured-article {
   padding: 4rem 5%;
 }
 
@@ -96,6 +96,66 @@ body {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 2.5rem;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.articles-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles-card:hover {
+  transform: translateY(-5px);
+}
+
+.articles-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.articles-info {
+  padding: 1.5rem;
+}
+
+.articles-title {
+  margin-bottom: 0.5rem;
+  color: #00aa00;
+}
+
+.read-more-article {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.read-more-article-btn {
+  padding: 1rem 2rem;
+  background-color: #00aa00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.read-more-article-btn:hover {
+  background-color: #018101;
+  transform: scale(1.05);
+}
+
+.featured-games {
+  padding: 4rem 5%;
 }
 
 .games-grid {

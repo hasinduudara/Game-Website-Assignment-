@@ -86,7 +86,7 @@ body {
 }
 
 .contact .btn {
-  background: #333;
+  background: #555;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -95,7 +95,9 @@ body {
 }
 
 .contact .btn:hover {
-  background: #555;
+  background: #414141;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
 }
 
 footer {

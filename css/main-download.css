@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #ddd;
+  background: #e9e9e9;
 }
 
 .search-bar {
@@ -72,6 +72,7 @@ body {
   flex-wrap: wrap;
   padding: 20px;
 }
+
 .game-card {
   background: white;
   padding: 15px;
@@ -79,22 +80,32 @@ body {
   text-align: center;
   width: 250px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
+.game-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s;
+}
+
 .game-card img {
   width: 100%;
   border-radius: 10px;
 }
+
 .download-section {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
 }
+
 .download-section img {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
+
 .download-section button {
   background: black;
   color: white;
@@ -103,6 +114,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .download-section button:hover {
   background: #0051ff;
   transition: background 0.3s ease, transform 0.3s ease;

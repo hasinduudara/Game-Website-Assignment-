@@ -50,6 +50,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
 .image-text {

@@ -19,6 +19,11 @@
         <header>
           <nav class="navbar">
             <div class="logo">Gamelynx</div>
+            <div class="burger" onclick="toggleMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
             <div class="nav-links">
               <a href="/index.html">Home</a>
               <a href="/pages/blog/mainblog.html">Blog</a>
@@ -122,5 +127,11 @@
         <p>&copy; 2025 Gamelynx. All rights reserved.</p>
       </footer>
     </main>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>

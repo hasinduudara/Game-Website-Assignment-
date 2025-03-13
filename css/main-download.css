@@ -6,11 +6,6 @@ body {
 }
 
 .search-bar {
-  margin: 20px 0;
-  text-align: center;
-}
-
-.search-bar {
   display: flex;
   justify-content: center;
   margin: 20px 0;
@@ -141,4 +136,51 @@ footer {
 
 .social-links a:hover {
   color: #00aa00;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    width: 100%;
+    padding: 1rem 10px;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .burger {
+    display: block;
+  }
+  .game-card {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .search-bar input {
+    width: 150px;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links a {
+    font-size: 1rem;
+  }
 }

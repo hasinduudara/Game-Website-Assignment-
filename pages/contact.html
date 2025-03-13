@@ -12,7 +12,7 @@
   <body>
     <main>
       <header>
-        <div class="container">
+        <div class="container header-container">
           <nav class="navbar">
             <div class="logo">Gamelynx</div>
             <div class="nav-links">
@@ -22,12 +22,17 @@
               <a href="/pages/download/main-downlod.html">Download</a>
               <a href="/pages/contact.html">Contact</a>
             </div>
+            <div class="burger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </nav>
         </div>
       </header>
 
       <section id="about" class="about">
-        <div class="container">
+        <div class="container about-container">
           <h2>About Us</h2>
           <p>
             Welcome to Gamelynx! Experience next-level gaming with our premium
@@ -37,7 +42,7 @@
       </section>
 
       <section id="contact" class="contact">
-        <div class="container">
+        <div class="container contact-us-container">
           <h2>Contact Us</h2>
           <p>Have questions? Reach out to us!</p>
           <form>
@@ -64,5 +69,12 @@
         <p>&copy; 2025 Gamelynx. All rights reserved.</p>
       </footer>
     </main>
+    <script>
+      document
+        .querySelector(".burger-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".navbar").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>

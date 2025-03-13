@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -214,4 +215,144 @@ footer {
 
 .social-links a:hover {
   color: #00aa00;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+}
+
+.burger-menu span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #262626;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem 0;
+  }
+
+  .nav-links a {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .image-text {
+    position: static;
+    transform: none;
+    margin-top: -12rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .articles-info,
+  .game-info {
+    padding: 1rem;
+  }
+
+  .articles-title,
+  .game-title {
+    font-size: 1.2rem;
+  }
+
+  .read-more-article-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .articles-title,
+  .game-title {
+    font-size: 1rem;
+  }
+
+  .read-more-article-btn {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .image-text {
+    position: static;
+    transform: none;
+    margin-top: -14rem;
+  }
 }

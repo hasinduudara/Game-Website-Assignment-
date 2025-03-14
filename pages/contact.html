@@ -15,7 +15,7 @@
         <div class="container header-container">
           <nav class="navbar">
             <div class="logo">Gamelynx</div>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
               <a href="/index.html">Home</a>
               <a href="/pages/blog/mainblog.html">Blog</a>
               <a href="/pages/youtube.html">YouTube</a>
@@ -73,7 +73,7 @@
       document
         .querySelector(".burger-menu")
         .addEventListener("click", function () {
-          document.querySelector(".navbar").classList.toggle("active");
+          document.getElementById("nav-links").classList.toggle("active");
         });
     </script>
   </body>

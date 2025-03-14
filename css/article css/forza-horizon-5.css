@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -86,12 +86,27 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
   font-size: 2rem;
   color: #fbff00;
   font-weight: bold;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px;
+  transition: all 0.3s ease;
 }
 
 .nav-links {
@@ -107,6 +122,16 @@ li {
 
 .nav-links a:hover {
   color: #ffff00;
+}
+
+.nav-active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #262626;
 }
 
 footer {
@@ -153,4 +178,15 @@ footer {
 
 .download-button button:hover {
   background-color: #8a0202;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+  }
+
+  .burger {
+    display: flex;
+  }
 }

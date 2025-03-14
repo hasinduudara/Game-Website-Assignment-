@@ -24,6 +24,11 @@ body {
   font-weight: bold;
 }
 
+a.nav-bar-logo {
+  color: #fbff00;
+  text-decoration: none;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;

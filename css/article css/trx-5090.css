@@ -22,6 +22,11 @@ article {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+a.nav-bar-logo {
+  color: #fbff00;
+  text-decoration: none;
+}
+
 p {
   margin-bottom: 1.5em;
 }

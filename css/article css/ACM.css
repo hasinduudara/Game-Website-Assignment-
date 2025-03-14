@@ -13,6 +13,11 @@ h3 {
   color: #222;
 }
 
+a.nav-bar-logo {
+  color: #fbff00;
+  text-decoration: none;
+}
+
 article {
   max-width: 800px;
   margin: 0 auto;

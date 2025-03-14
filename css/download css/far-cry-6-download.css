@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -30,19 +31,68 @@ a.nav-bar-logo {
   text-decoration: none;
 }
 
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
+}
+
+.nav-links.nav-active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #262626;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-links a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.1rem;
+  padding: 15px 0;
 }
 
 .nav-links a:hover {
   color: #ffff00;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+.burger.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.toggle .line2 {
+  opacity: 0;
+}
+
+.burger.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .container {

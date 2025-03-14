@@ -191,3 +191,32 @@ footer {
 .social-links a:hover {
   color: #00aa00;
 }
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}

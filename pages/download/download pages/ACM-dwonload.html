@@ -23,6 +23,11 @@
             <a href="/pages/download/main-downlod.html">Download</a>
             <a href="/pages/contact.html">Contact</a>
           </div>
+          <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </nav>
       </header>
       <div class="container">
@@ -111,5 +116,10 @@
         <p>&copy; 2025 Gamelynx. All rights reserved.</p>
       </footer>
     </main>
+    <script>
+      document.querySelector(".burger").addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.toggle("active");
+      });
+    </script>
   </body>
 </html>

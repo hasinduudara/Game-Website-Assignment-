@@ -191,3 +191,31 @@ footer {
 .social-links a:hover {
   color: #00aa00;
 }
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}

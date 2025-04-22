@@ -367,4 +367,8 @@ footer {
     transform: none;
     margin-top: -14rem;
   }
+
+  .nav-links a:hover {
+    color: #ffff00;
+  }
 }
